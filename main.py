@@ -25,11 +25,16 @@ def generate_square(size, colour=True):
 
 
 def generate_diagonal(size):
-    pass
+    
 
 
 def mirror_y(image):
-    pass
+    for col in range(size)
+       if image["pixels"][col] == 0
+          image["pixels"][col] == 1
+       else:
+          image["pixels"][col] == 0 
+    return image 
 
 
 def mirror_x(image):
