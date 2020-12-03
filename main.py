@@ -30,10 +30,15 @@ def generate_diagonal(size):
 
 def mirror_y(image):
     for col in range(size)
-       if image["pixels"][col] == 0
-          image["pixels"][col] == 1
-       else:
-          image["pixels"][col] == 0 
+      if image[col] == 4
+       	image[col] == 2
+      else 
+          image[col] == 3
+       if image [col] == 5
+           image [col] == 1
+       else 
+           image[col] == 3 
+       
     return image 
 
 
